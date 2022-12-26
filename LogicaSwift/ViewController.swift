@@ -46,6 +46,7 @@ class ViewController: UIViewController {
 		super.viewDidLoad()
 		
 		view.addSubviews(titleLabel, nameLabel, nextButton)
+		view.backgroundColor = .white
 	}
 
 	override func viewDidLayoutSubviews() {
