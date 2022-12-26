@@ -13,6 +13,7 @@
 		2905D23B2959C90300C33F01 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2905D2392959C90300C33F01 /* Main.storyboard */; };
 		2905D23D2959C90400C33F01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2905D23C2959C90400C33F01 /* Assets.xcassets */; };
 		2905D2402959C90400C33F01 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2905D23E2959C90400C33F01 /* LaunchScreen.storyboard */; };
+		2905D2482959CB8600C33F01 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2905D2472959CB8600C33F01 /* UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2905D23C2959C90400C33F01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2905D23F2959C90400C33F01 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2905D2412959C90400C33F01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2905D2472959CB8600C33F01 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				2905D23C2959C90400C33F01 /* Assets.xcassets */,
 				2905D23E2959C90400C33F01 /* LaunchScreen.storyboard */,
 				2905D2412959C90400C33F01 /* Info.plist */,
+				2905D2472959CB8600C33F01 /* UIView+Extension.swift */,
 			);
 			path = LogicaSwift;
 			sourceTree = "<group>";
@@ -140,6 +143,7 @@
 			files = (
 				2905D2382959C90300C33F01 /* ViewController.swift in Sources */,
 				2905D2342959C90300C33F01 /* AppDelegate.swift in Sources */,
+				2905D2482959CB8600C33F01 /* UIView+Extension.swift in Sources */,
 				2905D2362959C90300C33F01 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
